@@ -5,7 +5,7 @@ flex-flow:column nowrap;
 
 }
 .div1{
-    background: white;
+    background: rgb(240, 237, 237);
     height:50px;
     position:fixed;
     margin:0;
@@ -16,6 +16,17 @@ flex-flow:column nowrap;
     justify-content:space-between;
     align-items:flex-end;
 
+}
+
+.r:hover,.catering:hover,#h_le:hover{
+  background-color: rgb(168, 170, 180);
+  border-top:lightseagreen;
+  border-top-left-radius: 3px;
+  border-top-left-radius: 10px;
+  padding:5px;
+  border-bottom-right-radius: 5px;
+  font-weight:1000;
+  
 }
 .link{
     width:50%;
@@ -46,7 +57,9 @@ flex-flow:column nowrap;
 
   .r{
     text-decoration: none;
+    
     text-align: right;
+    color: black;
   }
 
   .catering{
@@ -54,6 +67,7 @@ flex-flow:column nowrap;
     float:left;
     margin:o; 
     text-decoration: none;
+    color: black;
     }
   .div2{
     width: 100%;
@@ -99,14 +113,25 @@ flex-flow:column nowrap;
   .about{
     width:40%;
     align-items: center;
+    align-self: center;
+    text-overflow: clip;
     justify-content: space-around;
     align-content: center;
   }
 .a{
-    text-align: center;}
+
+    text-align: justify;
+  }
   @media all and (max-width: 500px) {
-        .about_img {
-            display: none;
+        .div3 {
+          flex-flow: row wrap;
+        }
+        .about_img{
+          width:90%;
+
+          padding:20px;
+          align-items: center;
+          margin:15px;
         }
     }
 
