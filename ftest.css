@@ -6,11 +6,7 @@ bottom:0;
 zoom: normal;
 
 }
-@media only screen and (minn-width:300px) {
-  body {
-    display:none;
-  }
-}
+
 .div1{
     background: rgb(240, 237, 237);
     height:50px;
@@ -111,28 +107,27 @@ zoom: normal;
     width:100%;
     padding:10px;
     justify-content: space-around;
-    align-content: center;
   }
   .about_div,.about_content{
     width:50%;
   }
   .about_img{
-    opacity:0.5;
-    width: 100%;}
-  .about_i,.about_img{
-    padding: 10px;
-    margin: 5px;
+    align-items: center;
+    align-content: center;
+    padding-left:5px;
+    width: 100%;
   }
 
 
 
    .a{
+      align-items: left;
        text-align:justify;
        padding: 10px;
     }
     .a_c{
-      
-      font-weight: 300;
+      text-align: center;
+      font-weight: 200;
   }
   .a_ts,.a_c,.a{
     text-align:center;
@@ -148,7 +143,7 @@ zoom: normal;
       }
       .menu{
         float:left;
-        align-items: left;
+        align-items: center;
         text-align: left;
         padding:10px;
         margin:10px;
@@ -166,15 +161,19 @@ zoom: normal;
       }
       .b_p{
         color:grey;
+        align-item:justify;
       }
-        .menu_img{
-          float:right;
-          align-items: center;
-          margin-left:5px;
-          padding-left:5px;
-          width:40%;
-          opacity: 0.5;
-        }  
+      .menu_immg{
+        width:50%;
+      }
+      .menu_img{
+        float:center;
+        align-self: center;
+        padding: 20px;
+        width:100%;
+        opacity: 0.7;
+      }  
+      
 
 .div5{
     width:80%;
@@ -240,9 +239,45 @@ zoom: normal;
   }
 
 
-@media (min-width:600px){
-div5.c_header{
-  display:none;
+@media (max-width:992px){
+
+
+.about_i{
+  width:100%;
+  float: center;
 }
+.menu_immg{
+  width:100%;
+}
+.menu{width:90%;font-size:smaller;}
+.h_le{font-size: 20px;}
+.about_content{
+  width:100%;
+  float: center;
 }
 
+.div4{
+  flex-flow: row wrap;
+}
+.div5,.form{width:100%;}
+.c-p1,.d{font-size:15px;}
+.input{font-size:medium;}
+}
+
+@media (min-width:600px) and (max-width:992px){
+
+  .a_p2{
+    display:none;
+  }
+
+}
+@media (max-width:600px){
+
+  .about_img,.about_div{
+  display:none;
+}
+.r_link{
+  display:none;
+}
+.catering,.h_le{font-size: 10px;}
+}
