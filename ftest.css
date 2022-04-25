@@ -4,7 +4,6 @@ display: flex;
 flex-flow:column nowrap;
 bottom:0;
 zoom: normal;
-
 }
 
 .div1{
@@ -103,11 +102,7 @@ zoom: normal;
     justify-content: center;
     
   }
-  .about{
-    width:100%;
-    padding:10px;
-    justify-content: space-around;
-  }
+
   .about_div,.about_content{
     width:50%;
   }
@@ -125,11 +120,11 @@ zoom: normal;
        text-align:justify;
        padding: 10px;
     }
-    .a_c{
+   .a_c{
       text-align: center;
       font-weight: 200;
   }
-  .a_ts,.a_c,.a{
+  .a_ts,.a_c{
     text-align:center;
   }
     
