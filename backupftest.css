@@ -1,0 +1,283 @@
+
+.main{
+display: flex;
+flex-flow:column nowrap;
+bottom:0;
+zoom: normal;
+
+}
+
+.div1{
+    background: rgb(240, 237, 237);
+    height:50px;
+    position:fixed;
+    margin:0;
+    top:0;
+    padding:0;
+    width:100%;
+    z-index: 10;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    align-items:flex-end;
+
+}
+
+.r:hover,.catering:hover:hover{
+  background-color: rgb(216, 215, 215);
+   padding:5px;
+   padding-right:10px;
+}
+
+.link{
+    width:50%;
+    top:0;
+    margin:0;
+    padding-bottom:5px;
+    padding-left:5px;
+    font-size:large;
+    text-align:left;
+}
+
+.r_link{
+    width:50%;
+    top:0;
+    margin:0;
+    padding:5px;
+    text-align:right;
+    display:flex;
+    flex-flow: row nowrap;
+    align-items:flex-end;
+    justify-content: space-evenly;
+}
+
+  .r{
+    text-decoration: none;
+    
+    text-align: right;
+    color: black;
+  }
+
+  .catering{
+    width: auto;
+    padding:5px;
+    float:left;
+    margin:o; 
+    text-decoration: none;
+    color: black;
+    }
+  .div2{
+    width: 100%;
+    margin: 0;
+    left:0;
+    display:flex;
+    flex-flow: row nowrap;
+
+    }
+    
+    .f_img{
+    padding:0;
+    margin:0;
+    width:100%;
+    
+    }
+
+  .h_le{
+    position: absolute;
+    font-style: italic;
+    color: grey;
+    align-self: flex-end;
+    font-weight: normal;
+    text-decoration: wavy;
+    font:large;
+    font-family: 'Segoe UI', 'Open Sans';
+  }
+
+  
+  .div3{
+    width:100%;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .about{
+    width:100%;
+    padding:10px;
+    justify-content: space-around;
+  }
+  .about_div,.about_content{
+    width:50%;
+  }
+  .about_img{
+    align-items: center;
+    align-content: center;
+    padding-left:5px;
+    width: 100%;
+  }
+
+
+
+   .a{
+      align-items: left;
+       text-align:justify;
+       padding: 10px;
+    }
+    .a_c{
+      text-align: center;
+      font-weight: 200;
+  }
+  .a_ts,.a_c,.a{
+    text-align:center;
+  }
+    
+    .div4{
+        margin-top:15px;
+        width:100%;
+        display:flex;
+        flex-flow: row nowrap;
+        justify-content:center;
+        align-items:center;
+      }
+      .menu{
+        float:left;
+        align-items: center;
+        text-align: left;
+        padding:10px;
+        margin:10px;
+        width:50%;
+        }
+      .menu_h{
+        
+        align-items: center;
+        text-align: center;
+      }
+      .mh{
+        font-weight: 500;
+        text-size-adjust:3;
+        letter-spacing: 2px;
+      }
+      .b_p{
+        color:grey;
+        align-item:justify;
+      }
+      .menu_immg{
+        width:50%;
+      }
+      .menu_img{
+        float:center;
+        align-self: center;
+        padding: 20px;
+        width:100%;
+        opacity: 0.7;
+      }  
+      
+
+.div5{
+    width:80%;
+    top:10px;
+    padding: 20px;
+    text-align: left;
+}
+.c-p2{
+    color:rgb(159, 159, 233);
+    font-size: 20px;
+}
+.form{
+  width:100%;
+}
+  .input{
+    width:90%;
+    height:35px;
+    margin-top:20px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style:initial;
+    font-size: larger;
+ 
+  }
+  .input5{
+    padding:5px;
+    margin:5px;
+    width:auto;
+    
+  }
+  .input5:hover{
+    background: rgb(202, 200, 200);
+  }
+  .form_p{
+    border-bottom: 1px solid rgb(177, 175, 175);
+  }
+  
+  
+  .div6{
+    width:100%;
+    margin:0;
+    height:80px;
+    padding: 0; 
+    bottom:0;
+    background:rgb(230, 230, 230); 
+    align-content: center; 
+  }
+  
+  .f_p,.footer{
+    
+    padding-bottom: 0;
+    color:black;
+    bottom: 0;
+    align-items: center;
+    width:100%;
+    bottom:0;
+    text-align: center;
+    align-content: center;
+    margin-bottom:0;
+    font-size: 20px;
+
+    
+  }
+
+
+@media (max-width:992px){
+
+
+.about_i{
+  width:100%;
+  float: center;
+}
+.menu_immg{
+  width:100%;
+}
+.menu{width:90%;font-size:smaller;}
+.h_le{font-size: 20px;}
+.about_content{
+  width:100%;
+  float: center;
+}
+
+.div4{
+  flex-flow: row wrap;
+}
+.div5,.form{width:100%;}
+.c-p1,.d{font-size:15px;}
+.input{font-size:medium;}
+}
+
+@media (min-width:600px) and (max-width:992px){
+
+  .a_p2{
+    display:none;
+  }
+
+}
+@media (max-width:600px){
+
+  .about_img,.about_div{
+  display:none;
+}
+.r_link{
+  display:none;
+}
+.catering,.h_le{font-size: 10px;}
+}
