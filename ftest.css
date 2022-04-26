@@ -230,43 +230,23 @@ zoom: normal;
 
 
 @media (max-width:992px){
-
-
-.about_i{
-  width:50%;
-}
-.menu_immg{
-  width:100%;
-}
+.about_i{width:100%;}
+.menu_immg{width:100%;}
 .menu{width:90%;font-size:smaller;}
 .h_le{font-size: 20px;}
-.about_content{
-  width:50%;
-  float: center;
-}
-
-.div4{
-  flex-flow: row wrap;
-}
+.about_content{width:50%;float:center;}
+.div4{flex-flow: row wrap;}
 .div5,.form{width:100%;}
 .c-p1,.d{font-size:15px;}
 .input{font-size:medium;}
 }
 
 @media (min-width:600px) and (max-width:992px){
-
-  .a_p2{
-    display:none;
-  }
-
+ .a_p2{ display:none; }
 }
 @media (max-width:600px){
-
-  .about_img,.about_div{
-  display:none;
-}
-.r_link{
-  display:none;
-}
+  .about_img,.about_div{ display:none; }
+    .about_content{padding-left:15px; padding-right:15px; width:100% }
+.r_link{ display:none; }
 .catering,.h_le{font-size: 10px;}
 }
