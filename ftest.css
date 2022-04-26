@@ -107,26 +107,19 @@ zoom: normal;
     width:50%;
   }
   .about_img{
-    align-items: center;
-    align-content: center;
-    padding-left:5px;
-    width: 100%;
+     padding-left:5px;
+     width: 100%;
   }
-
-
-
-   .a{
+  .a_p1,.a_p2{
       align-items: left;
-       text-align:justify;
-       padding: 10px;
+      text-align:justify;
     }
    .a_c{
-      text-align: center;
       font-weight: 200;
-  }
+        }
   .a_ts,.a_c{
-    text-align:center;
-  }
+                 text-align:center;
+             }
     
     .div4{
         margin-top:15px;
