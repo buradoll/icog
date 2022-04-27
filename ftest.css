@@ -95,7 +95,7 @@ zoom: normal;
   
   .div3{
     width:100%;
-    max-width: 1000px;
+    
     margin-top: 10px;
     display: flex;
     flex-flow: row nowrap;
@@ -103,7 +103,10 @@ zoom: normal;
     justify-content: center;
     
   }
-
+   .center-div{
+    max-width:1000px;
+    float:center;
+            }
   .about_div,.about_content{
     width:50%;
       padding-left:20px;
