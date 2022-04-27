@@ -250,3 +250,6 @@ zoom: normal;
 .r_link{ display:none; }
 .catering,.h_le{font-size: 10px;}
 }
+@media (min-width:993px){
+.a_p1,.a_p2{font-size:30px;}
+}
