@@ -95,6 +95,7 @@ zoom: normal;
   
   .div3{
     width:100%;
+    max-width: 1000px;
     margin-top: 10px;
     display: flex;
     flex-flow: row nowrap;
